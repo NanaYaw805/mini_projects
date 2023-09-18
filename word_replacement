@@ -1,0 +1,9 @@
+def replace_word():
+    word = "Hi , we are here to dominate the world and conquer it"
+    torepl = input("Please enter the word to replace\n")
+    wirepl = input("Please what should we replace it with\n")
+    print(word.replace(torepl, wirepl))
+  
+
+
+replace_word()
